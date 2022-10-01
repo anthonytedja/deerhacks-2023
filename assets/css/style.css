@@ -80,3 +80,23 @@
   }
 }
 
+.links-xl:active {
+  /*transform: scale(1.05) !important;*/
+  opacity: 0.7;
+}
+
+@media (hover: hover) {
+  .links-xl:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+    cursor: pointer;
+    /*filter: blur(2px);*/
+    /*-webkit-filter: blur(2px);*/
+    overflow: hidden;
+  }
+}
+
+.links-xl {
+  transition: all ease 0.2s;
+}
+
