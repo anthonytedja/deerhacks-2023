@@ -5,7 +5,7 @@
 @media (hover: hover) {
   .name > span:hover {
     animation: bounce 1s infinite;
-    color: #d63384;
+    color: #889ee7;
   }
 }
 
