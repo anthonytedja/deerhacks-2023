@@ -1,0 +1,520 @@
+svg .mlh-badge-1 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1s;
+}
+
+svg.active .mlh-badge-1 {
+  fill: rgb(18, 47, 76);
+}
+
+svg .mlh-badge-2 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.025s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.025s;
+}
+
+svg.active .mlh-badge-2 {
+  fill: rgb(9, 24, 38);
+}
+
+svg .mlh-badge-3 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.05s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.05s;
+}
+
+svg.active .mlh-badge-3 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-4 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.075s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.075s;
+}
+
+svg.active .mlh-badge-4 {
+  fill: rgb(18, 47, 76);
+}
+
+svg .mlh-badge-5 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.1s;
+}
+
+svg.active .mlh-badge-5 {
+  fill: rgb(18, 47, 76);
+}
+
+svg .mlh-badge-6 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.125s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.125s;
+}
+
+svg.active .mlh-badge-6 {
+  fill: rgb(18, 47, 76);
+}
+
+svg .mlh-badge-7 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.15s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.15s;
+}
+
+svg.active .mlh-badge-7 {
+  fill: rgb(18, 47, 76);
+}
+
+svg .mlh-badge-8 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.175s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.175s;
+}
+
+svg.active .mlh-badge-8 {
+  fill: rgb(18, 47, 76);
+}
+
+svg .mlh-badge-9 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.2s;
+}
+
+svg.active .mlh-badge-9 {
+  fill: rgb(18, 47, 76);
+}
+
+svg .mlh-badge-10 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.225s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.225s;
+}
+
+svg.active .mlh-badge-10 {
+  fill: rgb(18, 47, 76);
+}
+
+svg .mlh-badge-11 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.25s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.25s;
+}
+
+svg.active .mlh-badge-11 {
+  fill: rgb(18, 47, 76);
+}
+
+svg .mlh-badge-12 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.275s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.275s;
+}
+
+svg.active .mlh-badge-12 {
+  fill: rgb(18, 47, 76);
+}
+
+svg .mlh-badge-13 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.3s;
+}
+
+svg.active .mlh-badge-13 {
+  fill: rgb(18, 47, 76);
+}
+
+svg .mlh-badge-14 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.325s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.325s;
+}
+
+svg.active .mlh-badge-14 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-15 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.35s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.35s;
+}
+
+svg.active .mlh-badge-15 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-16 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.375s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.375s;
+}
+
+svg.active .mlh-badge-16 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-17 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.4s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.4s;
+}
+
+svg.active .mlh-badge-17 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-18 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.425s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.425s;
+}
+
+svg.active .mlh-badge-18 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-19 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.45s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.45s;
+}
+
+svg.active .mlh-badge-19 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-20 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.475s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.475s;
+}
+
+svg.active .mlh-badge-20 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-21 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5s;
+}
+
+svg.active .mlh-badge-21 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-22 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.525s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.525s;
+}
+
+svg.active .mlh-badge-22 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-23 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.55s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.55s;
+}
+
+svg.active .mlh-badge-23 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-24 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5750000000000002s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.5750000000000002s;
+}
+
+svg.active .mlh-badge-24 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-25 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.6s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.6s;
+}
+
+svg.active .mlh-badge-25 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-26 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.625s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.625s;
+}
+
+svg.active .mlh-badge-26 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-27 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.65s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.65s;
+}
+
+svg.active .mlh-badge-27 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-28 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.675s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.675s;
+}
+
+svg.active .mlh-badge-28 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-29 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7000000000000002s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.7000000000000002s;
+}
+
+svg.active .mlh-badge-29 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-30 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.725s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.725s;
+}
+
+svg.active .mlh-badge-30 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-31 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.75s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.75s;
+}
+
+svg.active .mlh-badge-31 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-32 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.775s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.775s;
+}
+
+svg.active .mlh-badge-32 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-33 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8s;
+}
+
+svg.active .mlh-badge-33 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-34 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8250000000000002s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.8250000000000002s;
+}
+
+svg.active .mlh-badge-34 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-35 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.85s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.85s;
+}
+
+svg.active .mlh-badge-35 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-36 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.875s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.875s;
+}
+
+svg.active .mlh-badge-36 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-37 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.9s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.9s;
+}
+
+svg.active .mlh-badge-37 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-38 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.925s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.925s;
+}
+
+svg.active .mlh-badge-38 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-39 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.9500000000000002s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.9500000000000002s;
+}
+
+svg.active .mlh-badge-39 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-40 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.975s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 1.975s;
+}
+
+svg.active .mlh-badge-40 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-41 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2s;
+}
+
+svg.active .mlh-badge-41 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-42 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.0250000000000004s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.0250000000000004s;
+}
+
+svg.active .mlh-badge-42 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-43 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.05s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.05s;
+}
+
+svg.active .mlh-badge-43 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-44 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.075s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.075s;
+}
+
+svg.active .mlh-badge-44 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-45 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1s;
+}
+
+svg.active .mlh-badge-45 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-46 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.125s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.125s;
+}
+
+svg.active .mlh-badge-46 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-47 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1500000000000004s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.1500000000000004s;
+}
+
+svg.active .mlh-badge-47 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-48 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.175s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.175s;
+}
+
+svg.active .mlh-badge-48 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-49 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2s;
+}
+
+svg.active .mlh-badge-49 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-50 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.225s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.225s;
+}
+
+svg.active .mlh-badge-50 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-51 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.25s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.25s;
+}
+
+svg.active .mlh-badge-51 {
+  fill: rgb(255, 255, 255);
+}
+
+svg .mlh-badge-52 {
+  fill: transparent;
+  -webkit-transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2750000000000004s;
+  transition: fill 0.5s cubic-bezier(0.47, 0, 0.745, 0.715) 2.2750000000000004s;
+}
+
+svg.active .mlh-badge-52 {
+  fill: rgb(255, 255, 255);
+}
+

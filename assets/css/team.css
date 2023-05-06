@@ -1,0 +1,207 @@
+:root {
+  --color-text: black;
+  --color-bg: white;
+  --color-bg-accent: red;
+  --size: clamp(10rem, 1rem + 40vmin, 30rem);
+  --size: 60px;
+  --gap: calc(var(--size) / 4);
+  --duration: 15s;
+  --scroll-start: 0;
+  --scroll-end: calc(-100% - var(--gap));
+}
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+  mask-image: linear-gradient( to right, transparent, black, black, black, black, black, black, transparent );
+  -webkit-mask-image: linear-gradient( to right, transparent, black, black, black, black, black, black, transparent );
+}
+
+.marquee__group {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: var(--gap);
+  min-width: 100%;
+  animation: scroll-x var(--duration) linear infinite;
+  padding: 1rem 0;
+}
+
+/* .marquee:has(.marquee__group a:hover) .marquee__group {
+  animation-play-state: paused;
+} */
+
+.marquee:hover .marquee__group {
+  animation-play-state: paused;
+}
+
+.marquee--reverse .marquee__group {
+  animation-direction: reverse;
+  animation-delay: -3s;
+}
+
+@keyframes scroll-x {
+  from {
+    transform: translateX(var(--scroll-start));
+  }
+  to {
+    transform: translateX(var(--scroll-end));
+  }
+}
+
+/* Element styles */
+
+.marquee svg {
+  display: grid;
+  place-items: center;
+  width: var(--size);
+  height: var(--size);
+  fill: var(--color-text);
+  background: var(--color-bg);
+  padding: calc(var(--size) / 20);
+  border-radius: 50%;
+}
+
+.marquee a {
+  display: inline-flex;
+  /*place-items: center;*/
+  width: var(--size);
+  height: var(--size);
+  /*fill: var(--color-text);*/
+  /*background: var(--color-bg);*/
+  /*padding: calc(var(--size) / 20);*/
+  border-radius: 50%;
+}
+
+.marquee a img {
+  /*height: 100%;*/
+  /*width: 100%;*/
+  object-fit: cover;
+  /*overflow: hidden;*/
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+/* Parent wrapper */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  margin: auto;
+  max-width: 100vw;
+  overflow: hidden;
+  width: 100%;
+}
+
+#team:has(.wrapper .marquee .marquee__group a:is(:hover, :focus-visible)) #team-context #team-name span {
+  display: none;
+}
+
+#team:has(.wrapper .marquee .marquee__group a:is(:hover, :focus-visible)) #team-context #team-description span {
+  display: none;
+}
+
+/* Team Data */
+
+#team:has( .wrapper .marquee .marquee__group .team-anthony:is(:hover, :focus-visible) ) #team-context #team-name:after {
+  content: "anthony tedja";
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-anthony:is(:hover, :focus-visible) ) #team-context #team-description:after {
+  content: '"deerhacks donkey"';
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-shrey:is(:hover, :focus-visible) ) #team-context #team-name:after {
+  content: "shrey vakil";
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-shrey:is(:hover, :focus-visible) ) #team-context #team-description:after {
+  content: '"text idk put anything cool lol"';
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-carina:is(:hover, :focus-visible) ) #team-context #team-name:after {
+  content: "carina rastorguyeva";
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-carina:is(:hover, :focus-visible) ) #team-context #team-description:after {
+  content: '"mcss mommy"';
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-hillary:is(:hover, :focus-visible) ) #team-context #team-name:after {
+  content: "hillary tang";
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-hillary:is(:hover, :focus-visible) ) #team-context #team-description:after {
+  content: '"so basically, im very smol"';
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-shiva:is(:hover, :focus-visible) ) #team-context #team-name:after {
+  content: "shiva mulwani";
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-shiva:is(:hover, :focus-visible) ) #team-context #team-description:after {
+  content: '"smile and wave boys"';
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-nina:is(:hover, :focus-visible) ) #team-context #team-name:after {
+  content: "nina ricci lu";
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-nina:is(:hover, :focus-visible) ) #team-context #team-description:after {
+  content: '"i have no idea"';
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-niral:is(:hover, :focus-visible) ) #team-context #team-name:after {
+  content: "niral patel";
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-niral:is(:hover, :focus-visible) ) #team-context #team-description:after {
+  content: '"y u look so cute"';
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-ivan:is(:hover, :focus-visible) ) #team-context #team-name:after {
+  content: "ivan varquez";
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-ivan:is(:hover, :focus-visible) ) #team-context #team-description:after {
+  content: '"beginner deer doodler"';
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-srishti:is(:hover, :focus-visible) ) #team-context #team-name:after {
+  content: "srishti gangolly";
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-srishti:is(:hover, :focus-visible) ) #team-context #team-description:after {
+  content: '"!true but false"';
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-jasmine:is(:hover, :focus-visible) ) #team-context #team-name:after {
+  content: "jasmine guruparan";
+}
+
+#team:has( .wrapper .marquee .marquee__group .team-jasmine:is(:hover, :focus-visible) ) #team-context #team-description:after {
+  content: '"a whole new world"';
+}
+
+@media (min-width: 992px) {
+  #team-context {
+    min-width: 36%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #team-context {
+    min-width: 30%;
+  }
+}
+
+@media (min-width: 1400px) {
+  #team-context {
+    min-width: 25%;
+  }
+}
+

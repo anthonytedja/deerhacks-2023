@@ -2,7 +2,7 @@
 
 [![Website Preview](assets/img/preview.jpg)](https://anthonytedja.github.io/deerhacks)
 
-> deerhacks mockup website
+> deerhacks hackathon website code archive
 
 ## Built With
 
